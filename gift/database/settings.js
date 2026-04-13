@@ -34,7 +34,7 @@ const DEFAULT_SETTINGS = {
     OWNER_NAME: "𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫",
     OWNER_NUMBER: "254791899446",
     BOT_NAME: "𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-𝐗𝐦𝐝",
-    FOOTER: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-Tecj",
+    FOOTER: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-Tech",
     CAPTION: "©𝟐𝟎𝟐𝟓 𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-𝐗𝐦𝐝 𝐕3",
     BOT_PIC: "https://files.catbox.moe/277hum.jpg",
     VERSION: packageJson.version || "3.0.0",
