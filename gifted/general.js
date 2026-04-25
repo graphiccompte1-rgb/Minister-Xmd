@@ -18,7 +18,7 @@ gmd(
   {
     pattern: "ping",
     aliases: ["pi", "p"],
-    react: "⚡",
+    react: "🏃",
     category: "general",
     description: "Check bot response speed",
   },
@@ -43,7 +43,10 @@ gmd(
 
     await sendButtons(Gifted, from, {
       title: "Bot Speed",
-      text: `⚡ Pong: ${responseTime}ms`,
+      text: `🏃 Pong: ${responseTime}ms`,
+      Dᴀᴛᴇ:`${monospace(date)}`,
+      Tɪᴍᴇ:`${monospace(time)}`,
+      Uᴘᴛɪᴍᴇ :`${monospace(uptime)}`,
       footer: `> *${botFooter}*`,
       buttons: [
         { id: `${botPrefix}uptime`, text: "⏱️ Uptime" },
