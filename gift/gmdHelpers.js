@@ -76,15 +76,15 @@ function setupConsoleFilters() {
 setupConsoleFilters();
 
 const createContext = async (userJid, options = {}) => {
-    const botName = (await getSetting("BOT_NAME")) || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃";
+    const botName = (await getSetting("BOT_NAME")) || "𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-𝐗𝐦𝐝";
     const botPic =
         (await getSetting("BOT_PIC")) ||
-        "https://gitcdn.giftedtech.co.ke/image/AZO_image.jpg";
+        "https://files.catbox.moe/277hum.jpg";
     const newsletterJid =
-        (await getSetting("NEWSLETTER_JID")) || "120363426409647211@newsletter";
+        (await getSetting("NEWSLETTER_JID")) || "120363388529450317@newsletter";
     const newsletterUrl =
         (await getSetting("NEWSLETTER_URL")) ||
-        "https://whatsapp.com/channel/0029VbCpYtZLtOj5LDuj7Q1p";
+        "https://whatsapp.com/channel/0029VamMdLZ8fewqWt6Ei51y";
 
     return {
         contextInfo: {
@@ -114,12 +114,12 @@ const createContext = async (userJid, options = {}) => {
 };
 
 const createContext2 = async (userJid, options = {}) => {
-    const botName = (await getSetting("BOT_NAME")) || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃";
+    const botName = (await getSetting("BOT_NAME")) || "𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-𝐗𝐦𝐝";
     const botPic =
         (await getSetting("BOT_PIC")) ||
-        "https://gitcdn.giftedtech.co.ke/image/AZO_image.jpg";
+        "https://files.catbox.moe/277hum.jpg";
     const newsletterJid =
-        (await getSetting("NEWSLETTER_JID")) || "120363426409647211@newsletter";
+        (await getSetting("NEWSLETTER_JID")) || "120363388529450317@newsletterr";
 
     return {
         contextInfo: {
@@ -133,7 +133,7 @@ const createContext2 = async (userJid, options = {}) => {
             },
             externalAdReply: {
                 title: options.title || botName,
-                body: options.body || "Powered by Gifted Tech",
+                body: options.body || "Powered by Minister Tech",
                 thumbnailUrl: botPic,
                 mediaType: 1,
                 showAdAttribution: true,
