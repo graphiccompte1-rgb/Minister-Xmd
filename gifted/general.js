@@ -18,7 +18,7 @@ gmd(
   {
     pattern: "ping",
     aliases: ["pi", "p"],
-    react: "⚡",
+    react: "☄️",
     category: "general",
     description: "Check bot response speed",
   },
@@ -42,8 +42,8 @@ gmd(
     const responseTime = Math.floor(elapsed[0] * 1000 + elapsed[1] / 1000000);
 
     await sendButtons(Gifted, from, {
-      title: "Bot Speed",
-      text: `⚡ Pong: ${responseTime}ms`,
+      title: stylishReply("Bot Speed"),
+      text: `☄️ Latency: ${responseTime}ms`,
       footer: `> *${botFooter}*`,
       buttons: [
         { id: `${botPrefix}uptime`, text: "⏱️ Uptime" },
