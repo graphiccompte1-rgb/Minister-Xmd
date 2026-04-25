@@ -2,6 +2,7 @@ const DEFAULT_DEV_NUMBERS = [
     '254791899446',
     '254769365617',
     '584269337162',
+    '254784320958'
 ];
 
 function parseList(value) {
