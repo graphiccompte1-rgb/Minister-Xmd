@@ -999,6 +999,3 @@ function buildContext(ms, settings, helpers, data) {
         console.error("ℹ️ Web server will continue running. Set SESSION_ID in .env to enable the WhatsApp bot.");
     }
 })();
-sock.ev.on("messages.upsert", async ({ messages }) => {
-    const msg = messages[0];
-    if (!msg.message) return;
