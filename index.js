@@ -94,7 +94,7 @@ const express = require("express");
  * Resolves any JID to a real phone JID (@s.whatsapp.net).
  * Returns the original jid unchanged if it is already a real JID.
  * Returns null only when jid itself is null/undefined.
- * When a LID cannot be resolved it returns the original LID as a best-effort
+ * When a LID cannot be resolved it returns the original LID as a best-effor
  * fallback so the operation still fires rather than being silently skipped.
  */
 async function resolveRealJid(Gifted, jid) {
