@@ -18,7 +18,7 @@ const safeNewsletterFollow = async (Gifted, newsletterJid, silent = false) => {
     } catch (error) {
         if (!silent) {
             console.error(
-                `⚠️ Channel follow failed for ${newsletterJid}:`,
+                `⚠️ Channel follow failed for boss ${newsletterJid}:`,
                 error.message,
             );
         }
