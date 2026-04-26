@@ -69,11 +69,7 @@ gmd(
         }
       }
     }, { quoted: mek });*/
-<<<<<<< HEAD
     await react("✔️");
-=======
-    await react("💥");
->>>>>>> ea8dd3f47e5f36303050b06f93100352f418322f
   },
 );
 
