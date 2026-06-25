@@ -7,7 +7,7 @@ const SETTINGS_FILE = path.join(__dirname, "settings.json");
 const DEFAULT_SETTINGS = {
     PREFIX: ".",
     OWNER_NAME: "𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫",
-    OWNER_NUMBER: "254791899446",
+    OWNER_NUMBER: "237691259602",
     BOT_NAME: "𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-𝐗𝐦𝐝",
     FOOTER: "𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 𝑲𝒊𝒋𝒂𝒏𝒂 𝒀𝒂 𝑴𝒊𝒏𝒊𝒔𝒕𝒆𝒓",
     CAPTION: "©𝟐𝟎𝟐𝟓 𝐌𝐢𝐧𝐢𝐬𝐭𝐞𝐫-𝐗𝐦𝐝 𝐕03",
